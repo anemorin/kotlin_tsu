@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyFirstApplication</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_account">Create your account</string>
+    <string name="log_in">Log in</string>
+
+    <string name="welcome_title_one">"Learn anytime and anywhere"</string>
+    <string name="welcome_title_two">"Find a course for you"</string>
+    <string name="welcome_title_three">"Improve your skills"</string>
+    <string name="welcome_text">"Quarantine is the perfect time to spend your day learning something new, from anywhere!"</string>
+
+    <string name="dictionary_buttom">Dictionary</string>
+    <string name="video_buttom">Video</string>
+    <string name="training_buttom">Training</string>
+</resources>
