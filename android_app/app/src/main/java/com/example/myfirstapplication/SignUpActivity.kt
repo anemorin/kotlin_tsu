@@ -14,8 +14,7 @@ class SignUpActivity : AppCompatActivity() {
         val signUpButton = findViewById<View>(R.id.sign_up_button) as Button
         signUpButton.setOnClickListener(object : View.OnClickListener {
             override fun onClick(view: View?) {
-                val intent = Intent(this@SignUpActivity, MainActivity::class.java)
-                startActivity(intent)
+                startActivity(Intent(this@SignUpActivity, MainActivity::class.java))
             }
         })
     }

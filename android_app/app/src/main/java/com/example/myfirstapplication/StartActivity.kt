@@ -81,10 +81,8 @@ class StartActivity : AppCompatActivity() {
             override fun onClick(view: View?) {
                 if (getItem(1) != 3)
                     viewPager.setCurrentItem(getItem(1), true)
-                else {
-                    val intent = Intent(this@StartActivity, SignUpActivity::class.java)
-                    startActivity(intent)
-                }
+                else
+                    startActivity(Intent(this@StartActivity, SignUpActivity::class.java))
             }
         })
     }
