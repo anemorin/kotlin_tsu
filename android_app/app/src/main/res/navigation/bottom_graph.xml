@@ -7,9 +7,13 @@
 
     <fragment
         android:id="@+id/dictionaryFragment"
-        android:name="com.example.myfirstapplication.Dictionary"
+        android:name="com.example.myfirstapplication.Dictionary.Dictionary"
         android:label="fragment_dictionary"
-        tools:layout="@layout/fragment_dictionary" />
+        tools:layout="@layout/fragment_dictionary" >
+        <action
+            android:id="@+id/action_dictionaryFragment_to_trainingFragment"
+            app:destination="@id/trainingFragment" />
+    </fragment>
     <fragment
         android:id="@+id/videoFragment"
         android:name="com.example.myfirstapplication.Video"
@@ -19,5 +23,9 @@
         android:id="@+id/trainingFragment"
         android:name="com.example.myfirstapplication.Training"
         android:label="fragment_training"
-        tools:layout="@layout/fragment_training" />
+        tools:layout="@layout/fragment_training" >
+        <action
+            android:id="@+id/action_trainingFragment_to_videoFragment"
+            app:destination="@id/videoFragment" />
+    </fragment>
 </navigation>
